@@ -9,8 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController, MCMTFatherCallback {
-
-    var modelFather: MCMTModelFather?
     
     override func viewDidLoad() {
         super.viewDidLoad()
