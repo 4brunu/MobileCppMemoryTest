@@ -2,7 +2,9 @@
 
 I'm having an error, that I think it's related to memory management.
 
-To simulate the problem open [MobileCppMemoryTestiOS.xcodeproj](https://github.com/4brunu/MobileCppMemoryTest/tree/master/ios_project/MobileCppMemoryTestiOS/MobileCppMemoryTestiOS.xcodeproj) and run.
+##How to run the project?
+To simulate the problem open [MobileCppMemoryTestiOS.xcodeproj](https://github.com/4brunu/MobileCppMemoryTest/tree/master/ios_project/MobileCppMemoryTestiOS/MobileCppMemoryTestiOS.xcodeproj) on iOS or open the Android project [here](https://github.com/4brunu/MobileCppMemoryTest/tree/master/android_project/MobileCppMemoryTestAndroid) and run the app.
+
 
 ##iOS error
 The error is EXC_BAD_ACCESS in this [line](https://github.com/4brunu/MobileCppMemoryTest/blob/master/src/main/ModelSonImpl.cpp#L53).
@@ -15,6 +17,6 @@ A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x69006f in tid 4730 (ypic
       debuggerd: handling request: pid=4702 uid=10067 gid=10067 tid=4730
 ```
 
-### Workaround
+## Workaround
 
 One workarround is to put [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/ios_project/MobileCppMemoryTestiOS/MobileCppMemoryTestiOS/ViewController.swift#L21) and [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/src/main/ModelFatherImpl.cpp#L32) variables as global variables, but I want to understand why this is happening.
