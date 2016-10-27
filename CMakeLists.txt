@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(MobileCppMemoryTest_all)
+project(mobilecppmemorytest_all)
 
 if (ANDROID)
   message(STATUS "Android build!")

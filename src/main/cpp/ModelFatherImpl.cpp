@@ -8,7 +8,7 @@
 
 #include "ModelFatherImpl.hpp"
 #include "FatherCallback.hpp"
-#include "networking/NetworkRequestCallbackWrapper.hpp"
+#include "NetworkRequestCallbackWrapper.hpp"
 #include "Logger.hpp"
 #include "ModelSonImpl.hpp"
 #include "SonCallbackWrapper.hpp"

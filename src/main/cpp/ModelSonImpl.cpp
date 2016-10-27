@@ -8,7 +8,7 @@
 
 #include "ModelSonImpl.hpp"
 #include "SonCallback.hpp"
-#include "networking/NetworkRequestCallbackWrapper.hpp"
+#include "NetworkRequestCallbackWrapper.hpp"
 #include "Logger.hpp"
 
 namespace mobilecppmemorytest {

@@ -13,12 +13,12 @@
 		A58796121DC211EC00F26B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58796111DC211EC00F26B1A /* Assets.xcassets */; };
 		A58796151DC211EC00F26B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58796131DC211EC00F26B1A /* LaunchScreen.storyboard */; };
 		A587961E1DC216F000F26B1A /* NetworkRequestImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A587961D1DC216F000F26B1A /* NetworkRequestImpl.swift */; };
-		A58796221DC2171000F26B1A /* NetworkRequestCallbackWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58796201DC2171000F26B1A /* NetworkRequestCallbackWrapper.cpp */; };
 		A58796241DC2172E00F26B1A /* Release-libMobileCppMemoryTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A58796231DC2172E00F26B1A /* Release-libMobileCppMemoryTest.a */; };
-		A58796271DC2179F00F26B1A /* ModelFatherImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58796251DC2179F00F26B1A /* ModelFatherImpl.cpp */; };
-		A587962A1DC217B100F26B1A /* ModelSonImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58796281DC217B100F26B1A /* ModelSonImpl.cpp */; };
 		A587962F1DC21E3D00F26B1A /* LoggerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A587962E1DC21E3D00F26B1A /* LoggerImpl.swift */; };
-		A58796321DC225A900F26B1A /* SonCallbackWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A58796301DC225A900F26B1A /* SonCallbackWrapper.cpp */; };
+		A5DA3D691DC2611900EE9B6B /* ModelFatherImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DA3D651DC2611900EE9B6B /* ModelFatherImpl.cpp */; };
+		A5DA3D6A1DC2611900EE9B6B /* ModelSonImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DA3D671DC2611900EE9B6B /* ModelSonImpl.cpp */; };
+		A5DA3D6F1DC2612400EE9B6B /* NetworkRequestCallbackWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DA3D6B1DC2612400EE9B6B /* NetworkRequestCallbackWrapper.cpp */; };
+		A5DA3D701DC2612400EE9B6B /* SonCallbackWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5DA3D6D1DC2612400EE9B6B /* SonCallbackWrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +31,16 @@
 		A58796161DC211EC00F26B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A587961D1DC216F000F26B1A /* NetworkRequestImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestImpl.swift; sourceTree = "<group>"; };
 		A587961F1DC2171000F26B1A /* MobileCppMemoryTestiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MobileCppMemoryTestiOS-Bridging-Header.h"; path = "Networking/MobileCppMemoryTestiOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		A58796201DC2171000F26B1A /* NetworkRequestCallbackWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetworkRequestCallbackWrapper.cpp; path = ../../../src/main/cpp/networking/NetworkRequestCallbackWrapper.cpp; sourceTree = "<group>"; };
-		A58796211DC2171000F26B1A /* NetworkRequestCallbackWrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NetworkRequestCallbackWrapper.hpp; path = ../../../src/main/cpp/networking/NetworkRequestCallbackWrapper.hpp; sourceTree = "<group>"; };
 		A58796231DC2172E00F26B1A /* Release-libMobileCppMemoryTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "Release-libMobileCppMemoryTest.a"; path = "../../../cmake/bin/ios/Release/UNIVERSAL/Release-libMobileCppMemoryTest.a"; sourceTree = "<group>"; };
-		A58796251DC2179F00F26B1A /* ModelFatherImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelFatherImpl.cpp; path = ../../../src/main/ModelFatherImpl.cpp; sourceTree = "<group>"; };
-		A58796261DC2179F00F26B1A /* ModelFatherImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ModelFatherImpl.hpp; path = ../../../src/main/ModelFatherImpl.hpp; sourceTree = "<group>"; };
-		A58796281DC217B100F26B1A /* ModelSonImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelSonImpl.cpp; path = ../../../src/main/ModelSonImpl.cpp; sourceTree = "<group>"; };
-		A58796291DC217B100F26B1A /* ModelSonImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ModelSonImpl.hpp; path = ../../../src/main/ModelSonImpl.hpp; sourceTree = "<group>"; };
 		A587962E1DC21E3D00F26B1A /* LoggerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoggerImpl.swift; path = Logger/LoggerImpl.swift; sourceTree = "<group>"; };
-		A58796301DC225A900F26B1A /* SonCallbackWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SonCallbackWrapper.cpp; path = ../../../src/main/SonCallbackWrapper.cpp; sourceTree = "<group>"; };
-		A58796311DC225A900F26B1A /* SonCallbackWrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SonCallbackWrapper.hpp; path = ../../../src/main/SonCallbackWrapper.hpp; sourceTree = "<group>"; };
+		A5DA3D651DC2611900EE9B6B /* ModelFatherImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelFatherImpl.cpp; path = ../../../src/main/cpp/ModelFatherImpl.cpp; sourceTree = "<group>"; };
+		A5DA3D661DC2611900EE9B6B /* ModelFatherImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ModelFatherImpl.hpp; path = ../../../src/main/cpp/ModelFatherImpl.hpp; sourceTree = "<group>"; };
+		A5DA3D671DC2611900EE9B6B /* ModelSonImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelSonImpl.cpp; path = ../../../src/main/cpp/ModelSonImpl.cpp; sourceTree = "<group>"; };
+		A5DA3D681DC2611900EE9B6B /* ModelSonImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ModelSonImpl.hpp; path = ../../../src/main/cpp/ModelSonImpl.hpp; sourceTree = "<group>"; };
+		A5DA3D6B1DC2612400EE9B6B /* NetworkRequestCallbackWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetworkRequestCallbackWrapper.cpp; path = ../../../src/main/cpp/NetworkRequestCallbackWrapper.cpp; sourceTree = "<group>"; };
+		A5DA3D6C1DC2612400EE9B6B /* NetworkRequestCallbackWrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NetworkRequestCallbackWrapper.hpp; path = ../../../src/main/cpp/NetworkRequestCallbackWrapper.hpp; sourceTree = "<group>"; };
+		A5DA3D6D1DC2612400EE9B6B /* SonCallbackWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SonCallbackWrapper.cpp; path = ../../../src/main/cpp/SonCallbackWrapper.cpp; sourceTree = "<group>"; };
+		A5DA3D6E1DC2612400EE9B6B /* SonCallbackWrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SonCallbackWrapper.hpp; path = ../../../src/main/cpp/SonCallbackWrapper.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +77,10 @@
 				A587961F1DC2171000F26B1A /* MobileCppMemoryTestiOS-Bridging-Header.h */,
 				A587960A1DC211EC00F26B1A /* AppDelegate.swift */,
 				A587960C1DC211EC00F26B1A /* ViewController.swift */,
-				A58796261DC2179F00F26B1A /* ModelFatherImpl.hpp */,
-				A58796251DC2179F00F26B1A /* ModelFatherImpl.cpp */,
-				A58796291DC217B100F26B1A /* ModelSonImpl.hpp */,
-				A58796281DC217B100F26B1A /* ModelSonImpl.cpp */,
+				A5DA3D651DC2611900EE9B6B /* ModelFatherImpl.cpp */,
+				A5DA3D661DC2611900EE9B6B /* ModelFatherImpl.hpp */,
+				A5DA3D671DC2611900EE9B6B /* ModelSonImpl.cpp */,
+				A5DA3D681DC2611900EE9B6B /* ModelSonImpl.hpp */,
 				A58796331DC22E5000F26B1A /* CallbackWrappers */,
 				A587961C1DC216F000F26B1A /* Networking */,
 				A587962B1DC217B800F26B1A /* Resources */,
@@ -128,10 +128,10 @@
 		A58796331DC22E5000F26B1A /* CallbackWrappers */ = {
 			isa = PBXGroup;
 			children = (
-				A58796201DC2171000F26B1A /* NetworkRequestCallbackWrapper.cpp */,
-				A58796211DC2171000F26B1A /* NetworkRequestCallbackWrapper.hpp */,
-				A58796311DC225A900F26B1A /* SonCallbackWrapper.hpp */,
-				A58796301DC225A900F26B1A /* SonCallbackWrapper.cpp */,
+				A5DA3D6B1DC2612400EE9B6B /* NetworkRequestCallbackWrapper.cpp */,
+				A5DA3D6C1DC2612400EE9B6B /* NetworkRequestCallbackWrapper.hpp */,
+				A5DA3D6D1DC2612400EE9B6B /* SonCallbackWrapper.cpp */,
+				A5DA3D6E1DC2612400EE9B6B /* SonCallbackWrapper.hpp */,
 			);
 			name = CallbackWrappers;
 			sourceTree = "<group>";
@@ -209,14 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A587962A1DC217B100F26B1A /* ModelSonImpl.cpp in Sources */,
-				A58796221DC2171000F26B1A /* NetworkRequestCallbackWrapper.cpp in Sources */,
 				A587960D1DC211EC00F26B1A /* ViewController.swift in Sources */,
-				A58796271DC2179F00F26B1A /* ModelFatherImpl.cpp in Sources */,
 				A587962F1DC21E3D00F26B1A /* LoggerImpl.swift in Sources */,
-				A58796321DC225A900F26B1A /* SonCallbackWrapper.cpp in Sources */,
+				A5DA3D6F1DC2612400EE9B6B /* NetworkRequestCallbackWrapper.cpp in Sources */,
+				A5DA3D691DC2611900EE9B6B /* ModelFatherImpl.cpp in Sources */,
 				A587961E1DC216F000F26B1A /* NetworkRequestImpl.swift in Sources */,
+				A5DA3D6A1DC2611900EE9B6B /* ModelSonImpl.cpp in Sources */,
 				A587960B1DC211EC00F26B1A /* AppDelegate.swift in Sources */,
+				A5DA3D701DC2612400EE9B6B /* SonCallbackWrapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
