@@ -1,6 +1,7 @@
 # MobileCppMemoryTest
 
-I'm having an error, that I think it's related to memory management.
+This project show's an error while using djinni.
+I think it's a memory management error.
 
 ##How to run the project?
 To simulate the problem open [MobileCppMemoryTestiOS.xcodeproj](https://github.com/4brunu/MobileCppMemoryTest/tree/master/ios_project/MobileCppMemoryTestiOS/MobileCppMemoryTestiOS.xcodeproj) on iOS or open the Android project [here](https://github.com/4brunu/MobileCppMemoryTest/tree/master/android_project/MobileCppMemoryTestAndroid) and run the app.
