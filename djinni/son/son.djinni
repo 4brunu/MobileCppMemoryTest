@@ -1,0 +1,8 @@
+ModelSon = interface +c {
+	static create(networkRequest: NetworkRequest, logger: Logger): ModelSon;
+	simulateWork(sonCallback: SonCallback);
+}
+
+SonCallback = interface +j +o {
+  onResult(result: string);
+}

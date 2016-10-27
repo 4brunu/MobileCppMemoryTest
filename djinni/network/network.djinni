@@ -1,0 +1,16 @@
+NetworkRequest = interface +j +o {
+  httpGetRequest(
+    stringUrl: string,
+    callback: NetworkRequestCallback
+  );
+}
+
+NetworkRequestCallback = interface +c {
+  onResponse(networkRequestResponse: NetworkRequestResponse);
+}
+
+NetworkRequestResponse = record {
+    succeed: bool;
+    data: string;
+    httpStatusCode: i32;
+}

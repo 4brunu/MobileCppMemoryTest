@@ -1,0 +1,5 @@
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/OS/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/OS/CMakeFiles/ZERO_CHECK.dir
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/OS/ios_project/MobileCppMemoryTestiOS/CMakeFiles/MobileCppMemoryTest.dir
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/OS/ios_project/MobileCppMemoryTestiOS/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/OS/ios_project/MobileCppMemoryTestiOS/CMakeFiles/ZERO_CHECK.dir

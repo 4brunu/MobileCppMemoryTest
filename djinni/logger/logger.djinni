@@ -1,0 +1,3 @@
+Logger = interface +j +o {
+  log(stringLog: string);
+}

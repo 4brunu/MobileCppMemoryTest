@@ -1,0 +1,8 @@
+ModelFather = interface +c {
+	static create(networkRequest: NetworkRequest, logger: Logger): ModelFather;
+	simulateWork(fatherCallback: FatherCallback);
+}
+
+FatherCallback = interface +j +o {
+  onResult(result: string);
+}

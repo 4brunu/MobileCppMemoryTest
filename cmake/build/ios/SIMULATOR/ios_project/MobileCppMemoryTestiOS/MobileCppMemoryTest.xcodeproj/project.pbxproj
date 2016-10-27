@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4CFA6C1713874FAB9BE85FE7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 31D4AFA1AD184A62A3359A98 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B4E69EF2AFCC41B1AD7F65D4 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E573EDE46A4B4770ADF595E0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3B1B1F1AFA764A1FB880E72D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F10AEF20F41242A9A3CEBD6C /* CMake Rules */,
+			);
+			dependencies = (
+				D08F3F41151E46A58FB5DC96 /* PBXTargetDependency */,
+				7BA4E57C049845FA9FF7475B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05CF1F48AB5B4292A7CABCF4 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.mm */ = {isa = PBXBuildFile; fileRef = 2FBFCCB84A9047C4BA9B1177 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		12E98D53C75944FCB0371973 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/Logger.hpp */ = {isa = PBXBuildFile; fileRef = 1ED690080CB14F598CF358C2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/Logger.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15431D422B464FF28C63A859 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.h */ = {isa = PBXBuildFile; fileRef = 0F00BBCF6E8144C588335196 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		17C0CE3373B740E881473972 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXBuildFile; fileRef = E728B0978D71470EB1AB0C6E /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		292C983F42804C38A5114DD8 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback.h */ = {isa = PBXBuildFile; fileRef = 89337085A7AD437B9A3432D1 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback.h */; settings = {COMPILER_FLAGS = ""; }; };
+		39AF8AF720D245C999524725 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.h */ = {isa = PBXBuildFile; fileRef = E58227E6B6EB4FA181DFC0F1 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3A1BE36F5C87426785C1A736 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequest.hpp */ = {isa = PBXBuildFile; fileRef = ADF68E7DAAF745DEBE4395DB /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequest.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3E7A123EC3CF43639E2C7E1B /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.h */ = {isa = PBXBuildFile; fileRef = 62753A3440F3404382BC3CF3 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4213CCA51A3C4F1AB7CB9C5A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXBuildFile; fileRef = C7D22B22D6744CDE9016B2AD /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIMarshal+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4F9A3EF01BCC4E59AF83592E /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback.h */ = {isa = PBXBuildFile; fileRef = BF07ECC3108D4B2A9A6123C0 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback.h */; settings = {COMPILER_FLAGS = ""; }; };
+		50CA86D7CC544B0C8168C78F /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/ModelSon.hpp */ = {isa = PBXBuildFile; fileRef = 0756005ECAF2458F9B4FD27F /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/ModelSon.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5D9BF5DC95AA4AC5BD3D8A82 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest.h */ = {isa = PBXBuildFile; fileRef = 97B669432788418DB6E04F57 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest.h */; settings = {COMPILER_FLAGS = ""; }; };
+		60FA2CA492274680B8FE827D /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.h */ = {isa = PBXBuildFile; fileRef = FE548FDA55704C4C9190B706 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		802E863F5E344E2FA737B951 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.h */ = {isa = PBXBuildFile; fileRef = 778B219272CB49ACBE6A3136 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		84C1C9189C874CB49BB037C0 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequestResponse.hpp */ = {isa = PBXBuildFile; fileRef = 11036B63F8E64DD9AEEBD360 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequestResponse.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		89E97227AFED45C4862D78B9 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/FatherCallback.hpp */ = {isa = PBXBuildFile; fileRef = 546461A0986342E99301353A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/FatherCallback.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		953B79A89112403DB8D6B91A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/SonCallback.hpp */ = {isa = PBXBuildFile; fileRef = B94D2FAD73E94A579833F4DC /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/SonCallback.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A0C2F9DF9E624A478D476DFA /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.mm */ = {isa = PBXBuildFile; fileRef = 7FBB0CD284DE41F0B44DCAC2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		A15845121448419FB6800B3C /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 67F9F51C4875490EACC728E8 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A25D4CE4098A478C9C588FE5 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback.h */ = {isa = PBXBuildFile; fileRef = D211BE3B257545F28931345D /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A828A92B95A84CB0A164C277 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.h */ = {isa = PBXBuildFile; fileRef = 59F750A42F5C4513B2A3D178 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AF021B85032E4297B59EDAAF /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXBuildFile; fileRef = 26449457C80B4675B48A0B4E /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIProxyCaches.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		B1E5C1D41C2C48ADA509C141 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.mm */ = {isa = PBXBuildFile; fileRef = 04D27810119C4D00A9F6E311 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		B73E6C93752743A9BECFC64E /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/ios_project/MobileCppMemoryTestiOS/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 909C297FACF14696BFDDF1CA /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/ios_project/MobileCppMemoryTestiOS/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		B96C2FA9F1AF49539F11F3B2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.mm */ = {isa = PBXBuildFile; fileRef = AB8CC3AF9CEC4E6B9A646C34 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		BBA596FF924C4668934882D2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger.h */ = {isa = PBXBuildFile; fileRef = F9F2236443AA424FB255DCA5 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C5E6B8030085433BA3E73BDB /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.mm */ = {isa = PBXBuildFile; fileRef = 3E80852DC6F14449AC71BD13 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		CBC863414AB44D6E94E82D45 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.h */ = {isa = PBXBuildFile; fileRef = 88C15C67F2BE4BCEA290033F /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CCA3EBB7627947868B8BB186 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.h */ = {isa = PBXBuildFile; fileRef = 910FD302CF66429BA3EDD039 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CD2CCC0FE78247B2A75D9A61 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 5102608C4D254E97928AA54A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJICppWrapperCache+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D05F94EF6FD74756843A441B /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.h */ = {isa = PBXBuildFile; fileRef = 55B6F9C7D04B4CD18901D140 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D0BF95185EE14CA4BEBCA239 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.mm */ = {isa = PBXBuildFile; fileRef = 3A2ADF039F0E48B5B195B0C6 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		D837584221E04B30B63BEFB2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.mm */ = {isa = PBXBuildFile; fileRef = 98E8FD6C14234740B6416027 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		DA37A0F8636644EF88713033 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequestCallback.hpp */ = {isa = PBXBuildFile; fileRef = DD46CE42AC4D4D2E9EA5FAAA /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequestCallback.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DEC136866EB444EF923F3F8D /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather.h */ = {isa = PBXBuildFile; fileRef = F2A7E60D0E2F4C02960D3433 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E08D462C5B39499194444853 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon.h */ = {isa = PBXBuildFile; fileRef = AEA7BAEF42074160941E1696 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E2C1F61A69944606AA274651 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.h */ = {isa = PBXBuildFile; fileRef = 76B78D3E27514FE09A3A5A58 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EAD03676F84C48C990B83EA4 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.mm */ = {isa = PBXBuildFile; fileRef = 37762E47D3EB46E3BE5CF587 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+		F84AFD9D19AB42E8ADE1E2F1 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/ModelFather.hpp */ = {isa = PBXBuildFile; fileRef = 8672025FD1C2448298FF8128 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/ModelFather.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F9DD9EF651A84C8D99A8598D /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.mm */ = {isa = PBXBuildFile; fileRef = 8196210426E645B79DE7E20C /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.mm */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2586138EB5854B189104F867 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		745A59963D7D4271925D6BBF /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		92DD38969D0643D092B00C5B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		ADDB54AB14B04AB2AA99FBD5 = {
+			isa = PBXBuildStyle;
+		};
+		B0C9F698F0F847129742FA4F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		02EFBF724B08453B9256D95F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278EF6F5C2FB4E9482AC0FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CFA6C1713874FAB9BE85FE7;
+			remoteInfo = ZERO_CHECK;
+		};
+		169B881D2D4947818A6B70FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278EF6F5C2FB4E9482AC0FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CFA6C1713874FAB9BE85FE7;
+			remoteInfo = ZERO_CHECK;
+		};
+		3F947FFC36314782A7BA2ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278EF6F5C2FB4E9482AC0FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12B51F9300649DDB7ACB7BE;
+			remoteInfo = MobileCppMemoryTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D27810119C4D00A9F6E311 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "MCMTNetworkRequest+Private.mm"; path = "../../generated-src/objc/MCMTNetworkRequest+Private.mm"; sourceTree = SOURCE_ROOT; };
+		0756005ECAF2458F9B4FD27F /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/ModelSon.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ModelSon.hpp; path = "../../generated-src/cpp/ModelSon.hpp"; sourceTree = SOURCE_ROOT; };
+		0F00BBCF6E8144C588335196 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "MCMTFatherCallback+Private.h"; path = "../../generated-src/objc/MCMTFatherCallback+Private.h"; sourceTree = SOURCE_ROOT; };
+		11036B63F8E64DD9AEEBD360 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequestResponse.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NetworkRequestResponse.hpp; path = "../../generated-src/cpp/NetworkRequestResponse.hpp"; sourceTree = SOURCE_ROOT; };
+		1ED690080CB14F598CF358C2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/Logger.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Logger.hpp; path = "../../generated-src/cpp/Logger.hpp"; sourceTree = SOURCE_ROOT; };
+		26449457C80B4675B48A0B4E /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIProxyCaches.mm; path = "../../deps/djinni/support-lib/objc/DJIProxyCaches.mm"; sourceTree = SOURCE_ROOT; };
+		2FBFCCB84A9047C4BA9B1177 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "MCMTNetworkRequestCallback+Private.mm"; path = "../../generated-src/objc/MCMTNetworkRequestCallback+Private.mm"; sourceTree = SOURCE_ROOT; };
+		37762E47D3EB46E3BE5CF587 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "MCMTNetworkRequestResponse+Private.mm"; path = "../../generated-src/objc/MCMTNetworkRequestResponse+Private.mm"; sourceTree = SOURCE_ROOT; };
+		3A2ADF039F0E48B5B195B0C6 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "MCMTModelSon+Private.mm"; path = "../../generated-src/objc/MCMTModelSon+Private.mm"; sourceTree = SOURCE_ROOT; };
+		3E80852DC6F14449AC71BD13 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "MCMTLogger+Private.mm"; path = "../../generated-src/objc/MCMTLogger+Private.mm"; sourceTree = SOURCE_ROOT; };
+		5102608C4D254E97928AA54A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJICppWrapperCache+Private.h"; path = "../../deps/djinni/support-lib/objc/DJICppWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
+		52DB00F3899446CABA090F88 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/ios_project/MobileCppMemoryTestiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		546461A0986342E99301353A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/FatherCallback.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FatherCallback.hpp; path = "../../generated-src/cpp/FatherCallback.hpp"; sourceTree = SOURCE_ROOT; };
+		55B6F9C7D04B4CD18901D140 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "MCMTLogger+Private.h"; path = "../../generated-src/objc/MCMTLogger+Private.h"; sourceTree = SOURCE_ROOT; };
+		59F750A42F5C4513B2A3D178 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DJIError.h; path = "../../deps/djinni/support-lib/objc/DJIError.h"; sourceTree = SOURCE_ROOT; };
+		62753A3440F3404382BC3CF3 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "MCMTModelFather+Private.h"; path = "../../generated-src/objc/MCMTModelFather+Private.h"; sourceTree = SOURCE_ROOT; };
+		67F9F51C4875490EACC728E8 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIObjcWrapperCache+Private.h"; path = "../../deps/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
+		76B78D3E27514FE09A3A5A58 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "MCMTSonCallback+Private.h"; path = "../../generated-src/objc/MCMTSonCallback+Private.h"; sourceTree = SOURCE_ROOT; };
+		778B219272CB49ACBE6A3136 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "MCMTNetworkRequestResponse+Private.h"; path = "../../generated-src/objc/MCMTNetworkRequestResponse+Private.h"; sourceTree = SOURCE_ROOT; };
+		7FBB0CD284DE41F0B44DCAC2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "MCMTSonCallback+Private.mm"; path = "../../generated-src/objc/MCMTSonCallback+Private.mm"; sourceTree = SOURCE_ROOT; };
+		8196210426E645B79DE7E20C /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "MCMTModelFather+Private.mm"; path = "../../generated-src/objc/MCMTModelFather+Private.mm"; sourceTree = SOURCE_ROOT; };
+		8672025FD1C2448298FF8128 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/ModelFather.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ModelFather.hpp; path = "../../generated-src/cpp/ModelFather.hpp"; sourceTree = SOURCE_ROOT; };
+		88C15C67F2BE4BCEA290033F /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "MCMTNetworkRequestCallback+Private.h"; path = "../../generated-src/objc/MCMTNetworkRequestCallback+Private.h"; sourceTree = SOURCE_ROOT; };
+		89337085A7AD437B9A3432D1 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MCMTSonCallback.h; path = "../../generated-src/objc/MCMTSonCallback.h"; sourceTree = SOURCE_ROOT; };
+		909C297FACF14696BFDDF1CA /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/ios_project/MobileCppMemoryTestiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		910FD302CF66429BA3EDD039 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MCMTNetworkRequestResponse.h; path = "../../generated-src/objc/MCMTNetworkRequestResponse.h"; sourceTree = SOURCE_ROOT; };
+		97B669432788418DB6E04F57 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MCMTNetworkRequest.h; path = "../../generated-src/objc/MCMTNetworkRequest.h"; sourceTree = SOURCE_ROOT; };
+		98E8FD6C14234740B6416027 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "MCMTFatherCallback+Private.mm"; path = "../../generated-src/objc/MCMTFatherCallback+Private.mm"; sourceTree = SOURCE_ROOT; };
+		AB8CC3AF9CEC4E6B9A646C34 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MCMTNetworkRequestResponse.mm; path = "../../generated-src/objc/MCMTNetworkRequestResponse.mm"; sourceTree = SOURCE_ROOT; };
+		ADF68E7DAAF745DEBE4395DB /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequest.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NetworkRequest.hpp; path = "../../generated-src/cpp/NetworkRequest.hpp"; sourceTree = SOURCE_ROOT; };
+		AEA7BAEF42074160941E1696 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MCMTModelSon.h; path = "../../generated-src/objc/MCMTModelSon.h"; sourceTree = SOURCE_ROOT; };
+		B94D2FAD73E94A579833F4DC /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/SonCallback.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SonCallback.hpp; path = "../../generated-src/cpp/SonCallback.hpp"; sourceTree = SOURCE_ROOT; };
+		BF07ECC3108D4B2A9A6123C0 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MCMTFatherCallback.h; path = "../../generated-src/objc/MCMTFatherCallback.h"; sourceTree = SOURCE_ROOT; };
+		C7D22B22D6744CDE9016B2AD /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIMarshal+Private.h"; path = "../../deps/djinni/support-lib/objc/DJIMarshal+Private.h"; sourceTree = SOURCE_ROOT; };
+		D211BE3B257545F28931345D /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MCMTNetworkRequestCallback.h; path = "../../generated-src/objc/MCMTNetworkRequestCallback.h"; sourceTree = SOURCE_ROOT; };
+		DD46CE42AC4D4D2E9EA5FAAA /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequestCallback.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NetworkRequestCallback.hpp; path = "../../generated-src/cpp/NetworkRequestCallback.hpp"; sourceTree = SOURCE_ROOT; };
+		E476563ACC9B466D9263E365 /* MobileCppMemoryTest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMobileCppMemoryTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58227E6B6EB4FA181DFC0F1 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "MCMTNetworkRequest+Private.h"; path = "../../generated-src/objc/MCMTNetworkRequest+Private.h"; sourceTree = SOURCE_ROOT; };
+		E728B0978D71470EB1AB0C6E /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIError.mm; path = "../../deps/djinni/support-lib/objc/DJIError.mm"; sourceTree = SOURCE_ROOT; };
+		F2A7E60D0E2F4C02960D3433 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MCMTModelFather.h; path = "../../generated-src/objc/MCMTModelFather.h"; sourceTree = SOURCE_ROOT; };
+		F31B9A6ED10E4C93AE40991A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/ios_project/MobileCppMemoryTestiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F9F2236443AA424FB255DCA5 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MCMTLogger.h; path = "../../generated-src/objc/MCMTLogger.h"; sourceTree = SOURCE_ROOT; };
+		FE548FDA55704C4C9190B706 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "MCMTModelSon+Private.h"; path = "../../generated-src/objc/MCMTModelSon+Private.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D9C7EE0513F4280854CA73D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E728B0978D71470EB1AB0C6E /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.mm */,
+				26449457C80B4675B48A0B4E /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
+				98E8FD6C14234740B6416027 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.mm */,
+				3E80852DC6F14449AC71BD13 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.mm */,
+				8196210426E645B79DE7E20C /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.mm */,
+				3A2ADF039F0E48B5B195B0C6 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.mm */,
+				04D27810119C4D00A9F6E311 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.mm */,
+				2FBFCCB84A9047C4BA9B1177 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.mm */,
+				37762E47D3EB46E3BE5CF587 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.mm */,
+				AB8CC3AF9CEC4E6B9A646C34 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.mm */,
+				7FBB0CD284DE41F0B44DCAC2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.mm */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0FC6060ACA034228B652F6BE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5EE21986BD5D4EF581C01553 /* MobileCppMemoryTest */,
+				CF8ABA6F10BD4EFDBDD03527 /* ALL_BUILD */,
+				80018644206142DA8062B6CF /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		5EE21986BD5D4EF581C01553 /* MobileCppMemoryTest */ = {
+			isa = PBXGroup;
+			children = (
+				82F2AAA1500640D399C37101 /* Header Files */,
+				0D9C7EE0513F4280854CA73D /* Source Files */,
+				909C297FACF14696BFDDF1CA /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/ios_project/MobileCppMemoryTestiOS/CMakeLists.txt */,
+			);
+			name = MobileCppMemoryTest;
+			sourceTree = "<group>";
+		};
+		6827BC921DBD409EAF2A764A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		80018644206142DA8062B6CF /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC032B393547D2AC383994 /* CMake Rules */,
+				F31B9A6ED10E4C93AE40991A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/ios_project/MobileCppMemoryTestiOS/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		82F2AAA1500640D399C37101 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5102608C4D254E97928AA54A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJICppWrapperCache+Private.h */,
+				59F750A42F5C4513B2A3D178 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.h */,
+				C7D22B22D6744CDE9016B2AD /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIMarshal+Private.h */,
+				67F9F51C4875490EACC728E8 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h */,
+				546461A0986342E99301353A /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/FatherCallback.hpp */,
+				1ED690080CB14F598CF358C2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/Logger.hpp */,
+				8672025FD1C2448298FF8128 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/ModelFather.hpp */,
+				0756005ECAF2458F9B4FD27F /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/ModelSon.hpp */,
+				ADF68E7DAAF745DEBE4395DB /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequest.hpp */,
+				DD46CE42AC4D4D2E9EA5FAAA /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequestCallback.hpp */,
+				11036B63F8E64DD9AEEBD360 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/NetworkRequestResponse.hpp */,
+				B94D2FAD73E94A579833F4DC /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp/SonCallback.hpp */,
+				0F00BBCF6E8144C588335196 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.h */,
+				BF07ECC3108D4B2A9A6123C0 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback.h */,
+				55B6F9C7D04B4CD18901D140 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.h */,
+				F9F2236443AA424FB255DCA5 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger.h */,
+				62753A3440F3404382BC3CF3 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.h */,
+				F2A7E60D0E2F4C02960D3433 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather.h */,
+				FE548FDA55704C4C9190B706 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.h */,
+				AEA7BAEF42074160941E1696 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon.h */,
+				E58227E6B6EB4FA181DFC0F1 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.h */,
+				97B669432788418DB6E04F57 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest.h */,
+				88C15C67F2BE4BCEA290033F /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.h */,
+				D211BE3B257545F28931345D /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback.h */,
+				778B219272CB49ACBE6A3136 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.h */,
+				910FD302CF66429BA3EDD039 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.h */,
+				76B78D3E27514FE09A3A5A58 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.h */,
+				89337085A7AD437B9A3432D1 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9D7545617E59498EA3E7C960 = {
+			isa = PBXGroup;
+			children = (
+				0FC6060ACA034228B652F6BE /* Sources */,
+				EC072A71FCA046CFA35864B7 /* Resources */,
+				DAD762F004C541BAA0C7B78F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAC032B393547D2AC383994 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CF8ABA6F10BD4EFDBDD03527 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6827BC921DBD409EAF2A764A /* CMake Rules */,
+				52DB00F3899446CABA090F88 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/ios_project/MobileCppMemoryTestiOS/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DAD762F004C541BAA0C7B78F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E476563ACC9B466D9263E365 /* MobileCppMemoryTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC072A71FCA046CFA35864B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12B51F9300649DDB7ACB7BE /* MobileCppMemoryTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C71C37780349DFA9C2E19F /* Build configuration list for PBXNativeTarget "MobileCppMemoryTest" */;
+			buildPhases = (
+				89DA482D7E0F4ED2B946DAC0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF0A63DFFD34280BDD4BA38 /* PBXTargetDependency */,
+			);
+			name = MobileCppMemoryTest;
+			productName = MobileCppMemoryTest;
+			productReference = E476563ACC9B466D9263E365 /* MobileCppMemoryTest */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278EF6F5C2FB4E9482AC0FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0800;
+			};
+			buildConfigurationList = A85B5472A5A9495FBFB238D6 /* Build configuration list for PBXProject "MobileCppMemoryTest" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				745A59963D7D4271925D6BBF /* Debug */,
+				92DD38969D0643D092B00C5B /* Release */,
+				B0C9F698F0F847129742FA4F /* MinSizeRel */,
+				2586138EB5854B189104F867 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9D7545617E59498EA3E7C960;
+			projectDirPath = ../../../../../../ios_project/MobileCppMemoryTestiOS;
+			projectRoot = "";
+			targets = (
+				E573EDE46A4B4770ADF595E0 /* ALL_BUILD */,
+				E12B51F9300649DDB7ACB7BE /* MobileCppMemoryTest */,
+				4CFA6C1713874FAB9BE85FE7 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D03276B28C45429409A0B1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		52AFA781AF9146F28BEA1923 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B4E69EF2AFCC41B1AD7F65D4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS -f /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F10AEF20F41242A9A3CEBD6C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS -f /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DA482D7E0F4ED2B946DAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C0CE3373B740E881473972 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIError.mm */,
+				AF021B85032E4297B59EDAAF /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc/DJIProxyCaches.mm */,
+				D837584221E04B30B63BEFB2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTFatherCallback+Private.mm */,
+				C5E6B8030085433BA3E73BDB /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTLogger+Private.mm */,
+				F9DD9EF651A84C8D99A8598D /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelFather+Private.mm */,
+				D0BF95185EE14CA4BEBCA239 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTModelSon+Private.mm */,
+				B1E5C1D41C2C48ADA509C141 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequest+Private.mm */,
+				05CF1F48AB5B4292A7CABCF4 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestCallback+Private.mm */,
+				EAD03676F84C48C990B83EA4 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse+Private.mm */,
+				B96C2FA9F1AF49539F11F3B2 /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTNetworkRequestResponse.mm */,
+				A0C2F9DF9E624A478D476DFA /* /Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc/MCMTSonCallback+Private.mm */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BA4E57C049845FA9FF7475B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CFA6C1713874FAB9BE85FE7 /* ZERO_CHECK */;
+			targetProxy = 169B881D2D4947818A6B70FE /* PBXContainerItemProxy */;
+		};
+		D08F3F41151E46A58FB5DC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E12B51F9300649DDB7ACB7BE /* MobileCppMemoryTest */;
+			targetProxy = 3F947FFC36314782A7BA2ED4 /* PBXContainerItemProxy */;
+		};
+		FAF0A63DFFD34280BDD4BA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CFA6C1713874FAB9BE85FE7 /* ZERO_CHECK */;
+			targetProxy = 02EFBF724B08453B9256D95F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10881BB403784BEEA00F14F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/bin/ios/Release/SIMULATOR;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MobileCppMemoryTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2CC12C42B7D649268D385A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.0.sdk;
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS/build;
+			};
+			name = Release;
+		};
+		2D12275CA4764EF1BE97B45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3E2C4812BA254BEF92486952 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.0.sdk;
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS/build;
+			};
+			name = RelWithDebInfo;
+		};
+		3ED9833C9AB4498BAF921237 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4AACC579B28A4A7DA585E606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4E93F6EDB6874C609C40A823 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8876F9056FDD48369AB2D426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8DFC7D3A28504363A1E62C38 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.0.sdk;
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS/build;
+			};
+			name = MinSizeRel;
+		};
+		A957E940661B4868B93500F7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/bin/ios/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MobileCppMemoryTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B0AFFC8F53A54F2688A14BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.0.sdk;
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS/build;
+			};
+			name = Debug;
+		};
+		C2FCA4A8DD234C73B9160D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/bin/ios/Debug/SIMULATOR;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MobileCppMemoryTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E0DD99BF9966492489BA533C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/bin/ios/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++14 -stdlib=libc++ -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MobileCppMemoryTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E275F5348F4A4F08B21C600A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E96038E8349E49FDA8031933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F56A35C92B374E15B334B870 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bruno.coelho/Desktop/MobileCppMemoryTest/deps/djinni/support-lib/objc","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/cpp","/Users/bruno.coelho/Desktop/MobileCppMemoryTest/generated-src/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR/ios_project/MobileCppMemoryTestiOS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31D4AFA1AD184A62A3359A98 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D12275CA4764EF1BE97B45B /* Debug */,
+				8876F9056FDD48369AB2D426 /* Release */,
+				F56A35C92B374E15B334B870 /* MinSizeRel */,
+				4E93F6EDB6874C609C40A823 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3B1B1F1AFA764A1FB880E72D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96038E8349E49FDA8031933 /* Debug */,
+				4AACC579B28A4A7DA585E606 /* Release */,
+				E275F5348F4A4F08B21C600A /* MinSizeRel */,
+				3ED9833C9AB4498BAF921237 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A85B5472A5A9495FBFB238D6 /* Build configuration list for PBXProject "MobileCppMemoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0AFFC8F53A54F2688A14BE8 /* Debug */,
+				2CC12C42B7D649268D385A4B /* Release */,
+				8DFC7D3A28504363A1E62C38 /* MinSizeRel */,
+				3E2C4812BA254BEF92486952 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9C71C37780349DFA9C2E19F /* Build configuration list for PBXNativeTarget "MobileCppMemoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FCA4A8DD234C73B9160D80 /* Debug */,
+				10881BB403784BEEA00F14F0 /* Release */,
+				A957E940661B4868B93500F7 /* MinSizeRel */,
+				E0DD99BF9966492489BA533C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278EF6F5C2FB4E9482AC0FB2 /* Project object */;
+}

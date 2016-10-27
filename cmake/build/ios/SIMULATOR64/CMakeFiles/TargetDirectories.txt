@@ -1,0 +1,5 @@
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR64/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR64/CMakeFiles/ZERO_CHECK.dir
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR64/ios_project/MobileCppMemoryTestiOS/CMakeFiles/MobileCppMemoryTest.dir
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR64/ios_project/MobileCppMemoryTestiOS/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Desktop/MobileCppMemoryTest/cmake/build/ios/SIMULATOR64/ios_project/MobileCppMemoryTestiOS/CMakeFiles/ZERO_CHECK.dir
