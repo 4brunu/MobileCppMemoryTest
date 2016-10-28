@@ -20,4 +20,4 @@ A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x69006f in tid 4730 (ypic
 
 ## Workaround
 
-One workarround is to put [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/ios_project/MobileCppMemoryTestiOS/MobileCppMemoryTestiOS/ViewController.swift#L21) and [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/src/main/cpp/ModelFatherImpl.cpp#L32) variables as global variables, but I want to understand why this is happening.
+One workarround is to put [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/ios_project/MobileCppMemoryTestiOS/MobileCppMemoryTestiOS/ViewController.swift#L21) and [this on iOS](https://github.com/4brunu/MobileCppMemoryTest/blob/master/src/main/cpp/ModelFatherImpl.cpp#L32) or [this on Android](https://github.com/4brunu/MobileCppMemoryTest/blob/master/android_project/MobileCppMemoryTestAndroid/app/src/main/java/com/company/mobilecppmemorytestandroid/MainActivity.java#L28) variables as global variables, but I want to understand why this is happening.
