@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController, MCMTFatherCallback {
+class ViewController: UIViewController {
+    
+    var modelFather: MCMTModelFather?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,15 +20,14 @@ class ViewController: UIViewController, MCMTFatherCallback {
         
         let logger = LoggerImpl()
         
-        let modelFather = MCMTModelFather.create(networkRequest, logger: logger)
+        modelFather = MCMTModelFather.create(networkRequest, logger: logger)
         
-        modelFather?.simulateWork(self)
+        modelFather?.simulateWork(MCMTFatherCallbackWrapper(callback: { (result) in
+            print("ViewController.onResult")
+
+        }))
         
     }
     
-    func onResult(_ result: String) {
-        print("ViewController.onResult")
-    }
-
 }
 

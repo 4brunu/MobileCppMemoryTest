@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("mobilecppmemorytest");
     }
 
+    private ModelFather modelFather;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         Logger logger = new LoggerImpl();
 
-        ModelFather modelFather = ModelFather.create(networkRequest, logger);
+        modelFather = ModelFather.create(networkRequest, logger);
 
         modelFather.simulateWork(new FatherCallback() {
             @Override
