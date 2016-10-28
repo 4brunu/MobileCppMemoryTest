@@ -31,7 +31,7 @@ namespace mobilecppmemorytest {
         
         std::shared_ptr<ModelSonImpl> modelSonImpl = std::make_shared<ModelSonImpl>(this->networkRequest, this->logger);
         
-        modelSonImpl->simulateWork(SonCallbackWrapper::callback([this, fatherCallback](std::string result)
+        modelSonImpl->simulateWork(SonCallbackWrapper::callback([this, fatherCallback, modelSonImpl](std::string result)
                                                                 {
                                                                     
                                                                     networkCall(fatherCallback);
