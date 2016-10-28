@@ -8,7 +8,7 @@ To simulate the problem open [MobileCppMemoryTestiOS.xcodeproj](https://github.c
 
 
 ##iOS error
-The error is EXC_BAD_ACCESS in this [line](https://github.com/4brunu/MobileCppMemoryTest/blob/master/src/main/ModelSonImpl.cpp#L53).
+The error is EXC_BAD_ACCESS in this [line](https://github.com/4brunu/MobileCppMemoryTest/blob/master/src/main/cpp/ModelSonImpl.cpp#L53).
 
 ##Android Error
 ```
@@ -20,4 +20,4 @@ A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x69006f in tid 4730 (ypic
 
 ## Workaround
 
-One workarround is to put [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/ios_project/MobileCppMemoryTestiOS/MobileCppMemoryTestiOS/ViewController.swift#L21) and [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/src/main/ModelFatherImpl.cpp#L32) variables as global variables, but I want to understand why this is happening.
+One workarround is to put [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/ios_project/MobileCppMemoryTestiOS/MobileCppMemoryTestiOS/ViewController.swift#L21) and [this](https://github.com/4brunu/MobileCppMemoryTest/blob/master/src/main/cpp/ModelFatherImpl.cpp#L32) variables as global variables, but I want to understand why this is happening.
